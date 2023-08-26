@@ -21,7 +21,7 @@ github.com/brutella/hc/hap/pair
 github.com/brutella/hc/log
 github.com/brutella/hc/service
 github.com/brutella/hc/util
-# github.com/davecgh/go-spew v1.1.0
+# github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
 # github.com/miekg/dns v1.1.4
@@ -30,8 +30,8 @@ github.com/miekg/dns
 # github.com/pmezard/go-difflib v1.0.0
 ## explicit
 github.com/pmezard/go-difflib/difflib
-# github.com/stretchr/testify v1.4.0
-## explicit
+# github.com/stretchr/testify v1.8.4
+## explicit; go 1.20
 github.com/stretchr/testify/assert
 # github.com/tadglines/go-pkgs v0.0.0-20140924210655-1f86682992f1
 ## explicit
@@ -77,6 +77,6 @@ golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 golang.org/x/text/width
-# gopkg.in/yaml.v2 v2.2.2
+# gopkg.in/yaml.v3 v3.0.1
 ## explicit
-gopkg.in/yaml.v2
+gopkg.in/yaml.v3
