@@ -1,4 +1,4 @@
-# usb-power
+# usb-smart-switch
 Allows you to control usb power through a HomeKit device using the [uhubctl](https://github.com/mvp/uhubctl) command and the [hc](https://github.com/brutella/hc) library.
 This has only been tested on the Raspberry Pi with Raspberry Pi OS Buster.
 
@@ -15,13 +15,13 @@ sudo apt install -y uhubctl
 The `uhubctl` command requires root access so you can build and run with the following command:
 ```
 go build .
-sudo ./usb-power
+sudo ./usb-smart-switch
 ```
 
 ## Run at boot
 One way to run this command at boot is to add the following to /etc/rc.local:
 ```
-usbPowerDir={path_to_usb-power}
-cd ${usbPowerDir}
-${usbPowerDir}/usb-power &
+usbSmartSwitchDir={path_to_usb-smart-switch}
+cd ${usbSmartSwitchDir}
+${usbSmartSwitchDir}/usb-smart-switch &
 ```
